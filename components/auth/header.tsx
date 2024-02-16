@@ -7,11 +7,11 @@ const font = Poppins({
 });
 
 interface HeaderProps {
-    lable: string;
+    label: string;
 }
 
 export const Header = ( { 
-    lable 
+    label 
 }: 
     HeaderProps 
     ) => {
@@ -23,7 +23,7 @@ export const Header = ( {
             )}>
                 🔐 Auth
             </h1>
-            <p className="text-muted-foreground text-sm">{lable}</p>
+            <p className="text-muted-foreground text-sm">{label}</p>
         </div>
     )
     }

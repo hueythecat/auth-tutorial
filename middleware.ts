@@ -28,10 +28,20 @@ export default auth((req) => {
     }   
     
     if(!isLoggedIn && !isPublicRoute){
-        return Response.redirect(new URL("/auth/login", nextUrl));
+       
+        let callbackUrl = nextUrl.pathname;
+        if (nextUrl.search) {
+            callbackUrl += nextUrl.search;
+        }
+       
+        const encodedCallbackUrl = encodeURIComponent(callbackUrl);
+        console.log('middle', encodedCallbackUrl)
+        console.log('next', nextUrl)
+
+        return Response.redirect(new URL(`/auth/login?callbackUrl=${encodedCallbackUrl}`, nextUrl));
     }   
 
-    console.log('middleware: auth checks passed')
+    // console.log('middleware: auth checks passed')
     return ;
 })
 
@@ -40,3 +50,4 @@ export const config = {
    // matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
    matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
 }
+

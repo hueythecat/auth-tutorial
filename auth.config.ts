@@ -10,8 +10,14 @@ import { getUserByEmail } from "@/data/user"
 
 export default {
   providers: [
-    Google,
-    GitHub,
+    Google({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    }),
+    GitHub({
+      clientId: process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.GITHUB_CLIENT_SECRET,
+    }),
     Credentials({
       async authorize(credentials) {
         const validatedFields = LoginSchema.safeParse(credentials);
@@ -32,7 +38,7 @@ export default {
 
         return null;
       }
-    })
-    
+    }),
   ],
+  secret: process.env.AUTH_SECRET
 } satisfies NextAuthConfig

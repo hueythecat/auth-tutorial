@@ -6,7 +6,10 @@ import { signIn } from "@/auth"
 import { LoginSchema } from "@/schemas"
 import { DEFAULT_LOGIN_REDIRECT } from "@/routes"
 
-export const login = async (values: z.infer<typeof LoginSchema>) => {
+export const login = async (
+    values: z.infer<typeof LoginSchema>,
+    callbackUrl?: string | null
+    ) => {
     console.log('server values', values)
     const validatedFields = LoginSchema.safeParse(values);
 
@@ -20,10 +23,11 @@ export const login = async (values: z.infer<typeof LoginSchema>) => {
         await signIn("credentials", {
             email,
             password,
-            redirectTo: DEFAULT_LOGIN_REDIRECT
+            redirectTo: callbackUrl || DEFAULT_LOGIN_REDIRECT,
         })
     } catch (error) {
         if(error instanceof AuthError){
+            console.log('error', error.type)
             switch(error.type){
                 case "CredentialsSignin": {
                     return { error: "Invalid credentials" }
