@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { getVerificationTokenByEmail } from '@/data/verification-token';
 import { db } from '@/lib/db';
 
-export const genererateVerificationToken = async ( email:string ) => {
+export const generateVerificationToken = async ( email:string ) => {
     const token = uuidv4();
     const expires = new Date(new Date().getTime() + 3600 * 1000);
 
