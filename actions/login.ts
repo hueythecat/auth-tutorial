@@ -38,7 +38,6 @@ export const login = async (
         return{ error:"Invalid fields" }
     }
   
-
     try {
         await signIn("credentials", {
             email,

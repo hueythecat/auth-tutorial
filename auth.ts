@@ -9,8 +9,6 @@ import { PrismaClient } from "@prisma/client"
 
 const prisma = new PrismaClient()
 
-
-
 export const {
   handlers: { GET, POST },
   auth,
@@ -38,7 +36,7 @@ export const {
         const existingUser = await getUserById(user.id);
   
         // Prevent sign in without email verification
-        //if (!existingUser?.emailVerified) return false;
+        if (!existingUser?.emailVerified) return false;
   
        /* if (existingUser.isTwoFactorEnabled) {
           const twoFactorConfirmation = await getTwoFactorConfirmationByUserId(existingUser.id);
