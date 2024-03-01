@@ -12,7 +12,6 @@ export const register = async (values: z.infer<typeof RegisterSchema>) => {
     const validatedFields = RegisterSchema.safeParse(values);
 
     if(!validatedFields.success) {
-        //throw new Error('Invalid fields')
         return{ error: "Invalid fields" }
     }
 
