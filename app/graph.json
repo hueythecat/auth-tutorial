@@ -1,0 +1,202 @@
+[
+	{
+		"day_of_month" : 1,
+		"count_for_day" : 7,
+		"monthPayments" : 6,
+		"monthPurchases" : 6,
+		"monthCancelled" : 1,
+		"annualPayments" : 1,
+		"annualPurchases" : 1,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 2,
+		"count_for_day" : 7,
+		"monthPayments" : 5,
+		"monthPurchases" : 5,
+		"monthCancelled" : 1,
+		"annualPayments" : 2,
+		"annualPurchases" : 2,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 3,
+		"count_for_day" : 9,
+		"monthPayments" : 7,
+		"monthPurchases" : 7,
+		"monthCancelled" : 3,
+		"annualPayments" : 2,
+		"annualPurchases" : 2,
+		"annualCancelled" : 1
+	},
+	{
+		"day_of_month" : 4,
+		"count_for_day" : 3,
+		"monthPayments" : 3,
+		"monthPurchases" : 3,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 5,
+		"count_for_day" : 5,
+		"monthPayments" : 2,
+		"monthPurchases" : 2,
+		"monthCancelled" : 1,
+		"annualPayments" : 3,
+		"annualPurchases" : 3,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 6,
+		"count_for_day" : 6,
+		"monthPayments" : 6,
+		"monthPurchases" : 6,
+		"monthCancelled" : 1,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 7,
+		"count_for_day" : 9,
+		"monthPayments" : 9,
+		"monthPurchases" : 9,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 8,
+		"count_for_day" : 5,
+		"monthPayments" : 4,
+		"monthPurchases" : 4,
+		"monthCancelled" : 0,
+		"annualPayments" : 1,
+		"annualPurchases" : 1,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 9,
+		"count_for_day" : 9,
+		"monthPayments" : 9,
+		"monthPurchases" : 9,
+		"monthCancelled" : 1,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 10,
+		"count_for_day" : 3,
+		"monthPayments" : 2,
+		"monthPurchases" : 2,
+		"monthCancelled" : 0,
+		"annualPayments" : 1,
+		"annualPurchases" : 1,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 11,
+		"count_for_day" : 6,
+		"monthPayments" : 3,
+		"monthPurchases" : 3,
+		"monthCancelled" : 0,
+		"annualPayments" : 3,
+		"annualPurchases" : 3,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 12,
+		"count_for_day" : 5,
+		"monthPayments" : 5,
+		"monthPurchases" : 5,
+		"monthCancelled" : 1,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 13,
+		"count_for_day" : 5,
+		"monthPayments" : 5,
+		"monthPurchases" : 3,
+		"monthCancelled" : 1,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 14,
+		"count_for_day" : 3,
+		"monthPayments" : 3,
+		"monthPurchases" : 2,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 15,
+		"count_for_day" : 3,
+		"monthPayments" : 3,
+		"monthPurchases" : 3,
+		"monthCancelled" : 1,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 25,
+		"count_for_day" : 1,
+		"monthPayments" : 0,
+		"monthPurchases" : 0,
+		"monthCancelled" : 0,
+		"annualPayments" : 1,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 28,
+		"count_for_day" : 1,
+		"monthPayments" : 1,
+		"monthPurchases" : 0,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 29,
+		"count_for_day" : 3,
+		"monthPayments" : 3,
+		"monthPurchases" : 0,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 30,
+		"count_for_day" : 1,
+		"monthPayments" : 1,
+		"monthPurchases" : 0,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	},
+	{
+		"day_of_month" : 31,
+		"count_for_day" : 2,
+		"monthPayments" : 2,
+		"monthPurchases" : 0,
+		"monthCancelled" : 0,
+		"annualPayments" : 0,
+		"annualPurchases" : 0,
+		"annualCancelled" : 0
+	}
+]
